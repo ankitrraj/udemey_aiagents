@@ -39,3 +39,5 @@ enscoping_scope()
 #  built in
 
 
+# 5 =45
+# print(5)
