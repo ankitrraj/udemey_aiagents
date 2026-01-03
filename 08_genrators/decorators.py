@@ -6,12 +6,14 @@ def my_decorator(func):
         print("before functions run ")
         func()
         print("after funtions run")
-    wrapper()
+    return wrapper
+    
 
 @my_decorator
 def greet():
     print("hello from rajasthan ")
 
+greet()
 
 
 # print(greet.__name__)
